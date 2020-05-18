@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Tai TAI LE, fdfd, LIC=HN02Z-J823T-UG87Q-N1B2C-EHBE5-W78TG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\PROJECT_PROGRAM\STM32F1\STM32F103_proj\05_I2C_P2\USER\IIC_UART.uvprojx
+Project File Date:  04/18/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'IIC'
+compiling main.c...
+main.c(74): warning:  #177-D: variable "add" was declared but never referenced
+  	 u8 add=0, err=0;
+main.c(74): warning:  #177-D: variable "err" was declared but never referenced
+  	 u8 add=0, err=0;
+main.c(75): warning:  #177-D: variable "temp" was declared but never referenced
+  	 u8 temp=0,humi=0;
+main.c(75): warning:  #177-D: variable "humi" was declared but never referenced
+  	 u8 temp=0,humi=0;
+main.c(76): warning:  #177-D: variable "buffer" was declared but never referenced
+  	 char buffer[100];
+main.c: 5 warnings, 0 errors
+compiling ds1307.c...
+compiling usart.c...
+compiling myiic.c...
+..\HARDWARE\IIC\myiic.c(97): warning:  #940-D: missing return statement at end of non-void function "IIC_Read_Byte"
+  }
+..\HARDWARE\IIC\myiic.c: 1 warning, 0 errors
+linking...
+Program Size: Code=5100 RO-data=2640 RW-data=100 ZI-data=1732  
+FromELF: creating hex file...
+".\Objects\TEMP.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\PROJECT_PROGRAM\STM32F1\STM32F103_proj\05_I2C_P2\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
