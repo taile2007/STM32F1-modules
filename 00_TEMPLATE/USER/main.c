@@ -6,7 +6,7 @@
 int main(void)
  {	
 	 LED_init();
-	 delay_init(); //hello
+	 delay_init();
  
   while(1)
 	{
